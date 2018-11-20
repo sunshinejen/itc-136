@@ -17,9 +17,9 @@ connections=$( netstat | grep tcp )
 users=$( who)
 
 
-echo " This is a snap shot of your current system:
-        Disk used: $diskused
-        Free memory : $memfree 
-        Logged in Users: $users
-        Open connections:
+echo -en " This is a snap shot of your current system:
+    \e[36mCyan    Disk used: $diskused
+    \e[35mMagenta   Free memory : $memfree 
+    \e[92mLight green    Logged in Users: $users
+    \e[93mLight yellow    Open connections:
         $connections"
