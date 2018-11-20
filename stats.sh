@@ -19,6 +19,6 @@ users=$( who)
 
 echo -en " \e[35m This is a snap shot of your current system:
     \e[36m    Disk used: $diskused
-    \e[35m \e[5mBlink   Free memory : $memfree 
+    \e[35m    Free memory : $memfree 
     \e[92m    Logged in Users: $users
     \e[93m    Open connections:$connections"
