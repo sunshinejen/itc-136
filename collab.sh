@@ -7,3 +7,6 @@
 # Marcus Price
 
 echo "My name is Jen and I have 3 dogs, Dottie, Tank, and Rocky"
+
+echo "Here is a status of the Kernal Modules:"
+lsmod
